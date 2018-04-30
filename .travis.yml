@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "stable"
+sudo: false
+script:
+  - echo "deploy"
+deploy:
+  skip_cleanup: true
+  provider: firebase
+  token:
+    secure: 1/hlqDou4w8GyDIZxj044cxH0wSZNhyhpyJ7bv7lDwzGZeTmNe8SqFtViaA6q_DpsU
